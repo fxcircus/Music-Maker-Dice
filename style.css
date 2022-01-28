@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+body {
+  text-align: center;
+  background: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40% 20% 40%;
+  grid-gap: 5px;
+  grid-template-areas:
+    "titles titles titles titles"
+    "res res res res"
+    "newroll newroll newroll newroll"
+}
+
+.cube {
+  border:solid 5px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 2em;
+  grid-area: titles;
+}
+
+.res {
+  grid-area: res;
+}
+
+#new-button {
+  grid-area: newroll;
+  
+}
+
+#new-button:hover {
+  transform: scale(1.05);
+}
