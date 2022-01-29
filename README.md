@@ -3,6 +3,7 @@
 ### What does it do?
 - Random inspiration generator.
 - Click on the "Roll" button to generate new settings.
+- BPM will always be between 75 and 140
 
 ### Why?
 - I built this for to have a quick starting point for music making sessions.

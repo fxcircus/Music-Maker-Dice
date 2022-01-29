@@ -41,8 +41,6 @@ const rollDice = () => {
   }
   
   bpmEl.textContent = bpmVal
-//   console.log(bpmVal)
-
 }
 
 btnEl.addEventListener('click', (evt) => {
