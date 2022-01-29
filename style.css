@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 
 body {
+    min-height: 300px;
   text-align: center;
   background: #FFFFFF;
   font-family: Helvetica, sans-serif;
@@ -16,8 +17,9 @@ body {
 }
 
 .cube {
+  height: 70%;
   border:solid 3px;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
 }
 
