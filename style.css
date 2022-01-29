@@ -3,7 +3,7 @@
 body {
     min-height: 300px;
   text-align: center;
-  background: #FFFFFF;
+  background: #FFFCE8;
   font-family: Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
