@@ -6,12 +6,13 @@ body {
   font-family: Helvetica, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 40% 20% 40%;
+  grid-template-rows: 30% 10% 30% 30%;
   grid-gap: 5px;
   grid-template-areas:
     "titles titles titles titles"
     "res res res res"
-    "newroll newroll newroll newroll"
+    "tones tones tones tones"
+    "newroll newroll newroll newroll";
 }
 
 .cube {
@@ -31,9 +32,13 @@ body {
 
 #new-button {
   grid-area: newroll;
-  
 }
 
 #new-button:hover {
   transform: scale(1.05);
+}
+
+#scale-tones {
+    grid-area: tones;
+    font-size: 40px;
 }
